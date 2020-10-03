@@ -21,9 +21,9 @@ $name=$name[0];
 
 
 //creates the database connection
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 // Create connection
