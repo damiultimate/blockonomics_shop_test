@@ -1,0 +1,150 @@
+		body{
+			font-family: sans-serif;
+			margin:0;
+			padding: 0;
+			overflow-x: hidden;
+		}
+
+		.logo{
+			height: 61px;
+			float: left;
+		}
+		.title,.logout{
+			float: left;
+			font-size: 24px;
+			font-weight: 700;
+			margin-top: 23px;
+		}	
+		.logout{
+			float: right;
+			margin-right: 20px;
+			font-size: 20px;
+			font-weight: 400;
+			border:1px solid gray;
+			border-radius: 6px;
+			padding: 7px;
+			margin-top: 18px;
+		}
+
+		.top_nav{
+			display: inline-block;
+			width: 100%;
+			padding: 10px;
+			box-shadow: 8px -10px 9px 8px gray;
+		}
+		
+		footer{
+			position: relative;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+			padding: 20px;
+			background:#bbb7b7;
+			margin-top: 50px;
+		}
+		.first_text{
+			font-size: 25px;
+			padding: 20px;
+		}
+		.payment_process{
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.card1{
+			border:1px solid gray;
+			border-radius: 10px;
+			padding: 15px;
+			width:500px;
+			text-align: center;
+		}
+		.order_details,.value_equator,.address_intro,.info_needed{
+			font-size: 17px;
+		}
+		.confirmation{
+			padding: 10px 5px;
+			background:#f29090;
+			color: white;
+			border-radius: 5px;
+		}
+		.input{
+			width: 93%;
+			height: 30px;
+			border:1px solid gray;
+			padding: 0 10px;
+			border-radius: 5px;
+			text-align: center;
+		}
+		.main_text_child{
+			font-size: 22px;
+		}
+		.main_text{
+			margin: 25px;
+		}
+
+		.card{
+			width:312px;
+			height: auto;
+		}
+
+		.card_image{
+			width: 100%;
+			border-radius: 5px;
+		}
+		.card_text{
+			font-size: 20px;
+			line-height: 30px;
+		}
+		.card_button{
+			font-size: 18px;
+			padding: 8px;
+			background:#4444b0;
+			color:white;
+			cursor: pointer;
+			border-radius: 5px;
+			border:1px solid #4444b0;
+			float: right;
+		}
+		.text_left{
+			float: left;
+		}
+		.text_right{
+			float: right;
+		}
+		.card_image_par,.card_text{
+			border-bottom: 1px solid #d9d3d3;
+			margin-top: 5px;
+			padding: 7px;
+		}
+		.card_button{
+			margin-top: 6px;
+		}
+		.card{
+			border-radius:6px;
+			box-shadow:1px 1px 13px -1px gray;
+
+		}
+		.button_par{
+			padding: 6px;
+			height: 50px;
+		}
+		.images{
+			padding: 20px;
+		}
+		@media screen and (orientation: portrait){
+			.images{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+		}
+		footer{
+			position: relative;
+			bottom: 0;
+			left: 0;
+			text-align: center;
+			padding: 20px;
+			background:#bbb7b7;
+			margin-top: 50px;
+		}
