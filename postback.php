@@ -1,8 +1,8 @@
 <?php 
 //connects to the database
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 //the values sent from the Blockonomics servers which will be used in the database.
