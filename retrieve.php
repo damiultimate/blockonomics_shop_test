@@ -4,9 +4,9 @@ session_start();
 $user=$_SESSION['email'];
 
 //This is the page that the javascript code communicates with. This just returns the exchange rate and the balance.
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 
