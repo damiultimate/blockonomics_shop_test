@@ -51,9 +51,9 @@ $price=0.2/$price;
 $price=sprintf('%f', floatval(round($price,7)));
 
 //Conneting to the database and sets the exchange rate to the bitcoins in the $price variable
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 // Create connection
