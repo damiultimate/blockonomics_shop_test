@@ -16,9 +16,9 @@ $user=$_SESSION['email'];
 
 //In this section, i have written the PHP code to connect to the database and Update the user's data for the balance and exchange rate to equal zero to indicate a fresh login. Within this web application, the balance indicates the money the user will send during payment and the exchange rate represents the amount the exact amount needed for the image.
 
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 // Create SQL connection
