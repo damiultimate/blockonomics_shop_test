@@ -18,9 +18,9 @@ $im = imagecreatefromjpeg("low-quality/$image_id.jpg");
 else{
 
 	//Connects to the database and retrieves all the information linked to the user
-$servername = "topoffers.website";
-$username = "localhost";
-$password = "localhost";
+$servername = "example.com";
+$username = "example";
+$password = "password";
 $dbname = "user_db";
 
 // Create connection
